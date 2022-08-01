@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: "Helvetica Neue", "Helvetica";
+    font-size: 18px;
+}
+
+.dark-container {
+    background: #1f2937;
+    color: #f9faf8;
+    padding: 48px 256px;
+}
+
+.logo {
+    max-height: 48px;
+    width: auto;
+}
+
+.main-img {
+    width: 500px;
+    height: auto;
+}
+
+ul {
+    gap: 16px;
+    list-style: none;
+    color: #e5e7eb;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.showcase-header {
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+button {
+   border-radius: 6px;
+   border: none;
+   padding: 8px 24px;
+   color: #f9faf8;
+   background: #3882f6;
+   font-weight: bold;
+}
+
+button:hover {
+    background: #f9faf8;
+    color: #3882f6;
+    cursor: pointer;
+}
+
+.btn-secondary {
+    border: 2px solid #e5e7eb;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 64px;
+}
+
+.header-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.showcase {
+    display: flex;
+    align-items: center;
+    gap: 128px;
+    margin-bottom: 64px;
+}
+
+.showcase-header,
+.showcase-text {
+    margin-bottom: 32px;
+}
+
+.content {
+    padding: 0px 256px;
+    margin-bottom: 64px;
+}
+
+.content-header {
+    margin: 64px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    text-align: center;
+}
+
+.program-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.program {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 64px;
+}
+
+img {
+    width: 200px;
+}
+
+.program img{
+    border-radius: 6px;
+    border: 4px solid #3882f6;
+}
+
+.program-desc {
+    margin-top: 32px;
+}
+
+.grey-container {
+    background: #e5e7eb;
+}
+
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    padding: 256px;
+}
+
+.quote {
+    text-align: left;
+    font-style: italic;
+    font-size: 24px;
+    color: #1f2937;
+}
+
+.citation {
+    text-align: right;
+    font-weight: bold;
+}
+
+.footer {
+    padding: 64px 256px;
+}
+
+.cta {
+    background: #3882f6;
+    padding: 32px 84px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #e5e7eb;
+}
+
+.cta-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
